@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF72E3FA1C3C200100F78FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72E3F91C3C200100F78FCB /* main.m */; };
+		DF72E3FD1C3C200100F78FCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72E3FC1C3C200100F78FCB /* AppDelegate.m */; };
+		DF72E4001C3C200200F78FCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72E3FF1C3C200200F78FCB /* ViewController.m */; };
+		DF72E4031C3C200200F78FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF72E4011C3C200200F78FCB /* Main.storyboard */; };
+		DF72E4051C3C200200F78FCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF72E4041C3C200200F78FCB /* Images.xcassets */; };
+		DF72E4081C3C200200F78FCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF72E4061C3C200200F78FCB /* LaunchScreen.xib */; };
+		DF72E4141C3C200200F78FCB /* RPC_GAMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72E4131C3C200200F78FCB /* RPC_GAMETests.m */; };
+		DF72E41E1C3C247200F78FCB /* rcp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF72E41D1C3C247200F78FCB /* rcp.jpg */; };
+		DF72E4221C3C25E200F78FCB /* paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF72E41F1C3C25E200F78FCB /* paper.jpg */; };
+		DF72E4231C3C25E200F78FCB /* rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF72E4201C3C25E200F78FCB /* rock.jpg */; };
+		DF72E4241C3C25E200F78FCB /* scissors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF72E4211C3C25E200F78FCB /* scissors.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF72E40E1C3C200200F78FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF72E3EC1C3C200100F78FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF72E3F31C3C200100F78FCB;
+			remoteInfo = "RPC-GAME";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF72E3F41C3C200100F78FCB /* RPC-GAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPC-GAME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF72E3F81C3C200100F78FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF72E3F91C3C200100F78FCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF72E3FB1C3C200100F78FCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF72E3FC1C3C200100F78FCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF72E3FE1C3C200200F78FCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF72E3FF1C3C200200F78FCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF72E4021C3C200200F78FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF72E4041C3C200200F78FCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF72E4071C3C200200F78FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF72E40D1C3C200200F78FCB /* RPC-GAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPC-GAMETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF72E4121C3C200200F78FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF72E4131C3C200200F78FCB /* RPC_GAMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPC_GAMETests.m; sourceTree = "<group>"; };
+		DF72E41D1C3C247200F78FCB /* rcp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rcp.jpg; sourceTree = "<group>"; };
+		DF72E41F1C3C25E200F78FCB /* paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpg; sourceTree = "<group>"; };
+		DF72E4201C3C25E200F78FCB /* rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rock.jpg; sourceTree = "<group>"; };
+		DF72E4211C3C25E200F78FCB /* scissors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scissors.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF72E3F11C3C200100F78FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF72E40A1C3C200200F78FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF72E3EB1C3C200100F78FCB = {
+			isa = PBXGroup;
+			children = (
+				DF72E3F61C3C200100F78FCB /* RPC-GAME */,
+				DF72E4101C3C200200F78FCB /* RPC-GAMETests */,
+				DF72E3F51C3C200100F78FCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF72E3F51C3C200100F78FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF72E3F41C3C200100F78FCB /* RPC-GAME.app */,
+				DF72E40D1C3C200200F78FCB /* RPC-GAMETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF72E3F61C3C200100F78FCB /* RPC-GAME */ = {
+			isa = PBXGroup;
+			children = (
+				DF72E3FB1C3C200100F78FCB /* AppDelegate.h */,
+				DF72E3FC1C3C200100F78FCB /* AppDelegate.m */,
+				DF72E3FE1C3C200200F78FCB /* ViewController.h */,
+				DF72E3FF1C3C200200F78FCB /* ViewController.m */,
+				DF72E4011C3C200200F78FCB /* Main.storyboard */,
+				DF72E4041C3C200200F78FCB /* Images.xcassets */,
+				DF72E4061C3C200200F78FCB /* LaunchScreen.xib */,
+				DF72E3F71C3C200100F78FCB /* Supporting Files */,
+			);
+			path = "RPC-GAME";
+			sourceTree = "<group>";
+		};
+		DF72E3F71C3C200100F78FCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF72E41F1C3C25E200F78FCB /* paper.jpg */,
+				DF72E4201C3C25E200F78FCB /* rock.jpg */,
+				DF72E4211C3C25E200F78FCB /* scissors.jpg */,
+				DF72E41D1C3C247200F78FCB /* rcp.jpg */,
+				DF72E3F81C3C200100F78FCB /* Info.plist */,
+				DF72E3F91C3C200100F78FCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF72E4101C3C200200F78FCB /* RPC-GAMETests */ = {
+			isa = PBXGroup;
+			children = (
+				DF72E4131C3C200200F78FCB /* RPC_GAMETests.m */,
+				DF72E4111C3C200200F78FCB /* Supporting Files */,
+			);
+			path = "RPC-GAMETests";
+			sourceTree = "<group>";
+		};
+		DF72E4111C3C200200F78FCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF72E4121C3C200200F78FCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF72E3F31C3C200100F78FCB /* RPC-GAME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF72E4171C3C200200F78FCB /* Build configuration list for PBXNativeTarget "RPC-GAME" */;
+			buildPhases = (
+				DF72E3F01C3C200100F78FCB /* Sources */,
+				DF72E3F11C3C200100F78FCB /* Frameworks */,
+				DF72E3F21C3C200100F78FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RPC-GAME";
+			productName = "RPC-GAME";
+			productReference = DF72E3F41C3C200100F78FCB /* RPC-GAME.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF72E40C1C3C200200F78FCB /* RPC-GAMETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF72E41A1C3C200200F78FCB /* Build configuration list for PBXNativeTarget "RPC-GAMETests" */;
+			buildPhases = (
+				DF72E4091C3C200200F78FCB /* Sources */,
+				DF72E40A1C3C200200F78FCB /* Frameworks */,
+				DF72E40B1C3C200200F78FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF72E40F1C3C200200F78FCB /* PBXTargetDependency */,
+			);
+			name = "RPC-GAMETests";
+			productName = "RPC-GAMETests";
+			productReference = DF72E40D1C3C200200F78FCB /* RPC-GAMETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF72E3EC1C3C200100F78FCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kelsey Kjeldsen";
+				TargetAttributes = {
+					DF72E3F31C3C200100F78FCB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DF72E40C1C3C200200F78FCB = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DF72E3F31C3C200100F78FCB;
+					};
+				};
+			};
+			buildConfigurationList = DF72E3EF1C3C200100F78FCB /* Build configuration list for PBXProject "RPC-GAME" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF72E3EB1C3C200100F78FCB;
+			productRefGroup = DF72E3F51C3C200100F78FCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF72E3F31C3C200100F78FCB /* RPC-GAME */,
+				DF72E40C1C3C200200F78FCB /* RPC-GAMETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF72E3F21C3C200100F78FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72E4031C3C200200F78FCB /* Main.storyboard in Resources */,
+				DF72E4221C3C25E200F78FCB /* paper.jpg in Resources */,
+				DF72E4081C3C200200F78FCB /* LaunchScreen.xib in Resources */,
+				DF72E4241C3C25E200F78FCB /* scissors.jpg in Resources */,
+				DF72E4051C3C200200F78FCB /* Images.xcassets in Resources */,
+				DF72E4231C3C25E200F78FCB /* rock.jpg in Resources */,
+				DF72E41E1C3C247200F78FCB /* rcp.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF72E40B1C3C200200F78FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF72E3F01C3C200100F78FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72E4001C3C200200F78FCB /* ViewController.m in Sources */,
+				DF72E3FD1C3C200100F78FCB /* AppDelegate.m in Sources */,
+				DF72E3FA1C3C200100F78FCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF72E4091C3C200200F78FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72E4141C3C200200F78FCB /* RPC_GAMETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF72E40F1C3C200200F78FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF72E3F31C3C200100F78FCB /* RPC-GAME */;
+			targetProxy = DF72E40E1C3C200200F78FCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF72E4011C3C200200F78FCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF72E4021C3C200200F78FCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF72E4061C3C200200F78FCB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF72E4071C3C200200F78FCB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF72E4151C3C200200F78FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF72E4161C3C200200F78FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF72E4181C3C200200F78FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RPC-GAME/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF72E4191C3C200200F78FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RPC-GAME/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF72E41B1C3C200200F78FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RPC-GAMETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPC-GAME.app/RPC-GAME";
+			};
+			name = Debug;
+		};
+		DF72E41C1C3C200200F78FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RPC-GAMETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPC-GAME.app/RPC-GAME";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF72E3EF1C3C200100F78FCB /* Build configuration list for PBXProject "RPC-GAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF72E4151C3C200200F78FCB /* Debug */,
+				DF72E4161C3C200200F78FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF72E4171C3C200200F78FCB /* Build configuration list for PBXNativeTarget "RPC-GAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF72E4181C3C200200F78FCB /* Debug */,
+				DF72E4191C3C200200F78FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF72E41A1C3C200200F78FCB /* Build configuration list for PBXNativeTarget "RPC-GAMETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF72E41B1C3C200200F78FCB /* Debug */,
+				DF72E41C1C3C200200F78FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF72E3EC1C3C200100F78FCB /* Project object */;
+}
