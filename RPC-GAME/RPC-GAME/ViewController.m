@@ -18,7 +18,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     _rcpImage.image = [UIImage imageNamed:@"rcp.jpg"];
-    _compImage.image = [UIImage imageNamed:@"rcp.jpg"];
+    //_compImage.image = [UIImage imageNamed:@"rcp.jpg"];
+    _compImage.hidden = YES; //to start its hidden
+    _computerChoiceThumbnailLabel.hidden = YES; //hide label at load time
+    //hide your choice label
+    _yourChoiceThumnailLabel.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,14 +45,20 @@ int getRandomInteger(int minimum, int maximum) {
     switch (compRandomNumber) {
         case 0:
             //switch comp image
+            _compImage.hidden = NO;
+            _computerChoiceThumbnailLabel.hidden = NO;
             _compImage.image = [UIImage imageNamed: @"rock.jpg"];
             NSLog(@"Computer chose ROCK!");
             break;
         case 1:
+            _compImage.hidden = NO;
+            _computerChoiceThumbnailLabel.hidden = NO;
             _compImage.image = [UIImage imageNamed: @"paper.jpg"];
             NSLog(@"Computer chose PAPER!");
             break;
         case 2:
+            _compImage.hidden = NO;
+            _computerChoiceThumbnailLabel.hidden = NO;
             _compImage.image = [UIImage imageNamed: @"scissors.jpg"];
             NSLog(@"Computer chose SCISSORS!");
             break;
@@ -100,6 +110,7 @@ int getRandomInteger(int minimum, int maximum) {
 
 //rock, paper, scissors buttons pressed
 - (IBAction)rockButtonPressed:(id)sender {
+    _yourChoiceThumnailLabel.hidden = NO;
     userChoiceIntButtonPressed = 0; //0 for rock
     _rcpImage.image = [UIImage imageNamed:@"rock.jpg"];
     [self computerChoice]; //calling computer choice
@@ -107,6 +118,7 @@ int getRandomInteger(int minimum, int maximum) {
 }
 
 - (IBAction)paperButtonPressed:(id)sender {
+    _yourChoiceThumnailLabel.hidden = NO;
     userChoiceIntButtonPressed = 1; //1 for paper
     _rcpImage.image = [UIImage imageNamed:@"paper.jpg"];
     [self computerChoice]; //calling computer choice
@@ -114,6 +126,7 @@ int getRandomInteger(int minimum, int maximum) {
 }
 
 - (IBAction)scissorsButtonPressed:(id)sender {
+    _yourChoiceThumnailLabel.hidden = NO;
     userChoiceIntButtonPressed = 2; //2 for scissors
     _rcpImage.image = [UIImage imageNamed:@"scissors.jpg"];
     [self computerChoice]; //calling computer choice

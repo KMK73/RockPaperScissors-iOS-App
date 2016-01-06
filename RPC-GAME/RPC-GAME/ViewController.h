@@ -24,6 +24,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *scissorsButton;
 //winner label
 @property (weak, nonatomic) IBOutlet UILabel *winnerLabel;
+@property (weak, nonatomic) IBOutlet UILabel *computerChoiceThumbnailLabel;
+@property (weak, nonatomic) IBOutlet UILabel *yourChoiceThumnailLabel;
 
 
 //image label rcp picture

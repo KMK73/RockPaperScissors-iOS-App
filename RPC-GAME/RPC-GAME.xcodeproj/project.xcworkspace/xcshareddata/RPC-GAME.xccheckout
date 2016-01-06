@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B8545F38-77D0-44E3-B20D-DF1C95F4D4B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RPC-GAME</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2B4579C8F46596F6CA6873DA145AA31B2816AA12</key>
+		<string>https://github.com/KMK73/RockPaperScissors-iOS-App.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RPC-GAME/RPC-GAME.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2B4579C8F46596F6CA6873DA145AA31B2816AA12</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KMK73/RockPaperScissors-iOS-App.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2B4579C8F46596F6CA6873DA145AA31B2816AA12</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2B4579C8F46596F6CA6873DA145AA31B2816AA12</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RockPaperScissors-iOS-App</string>
+		</dict>
+	</array>
+</dict>
+</plist>
